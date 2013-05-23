@@ -1,0 +1,3 @@
+[submodule "Special Key Handler/MASShortcut"]
+	path = Special Key Handler/MASShortcut
+	url = git://github.com/shpakovski/MASShortcut.git
