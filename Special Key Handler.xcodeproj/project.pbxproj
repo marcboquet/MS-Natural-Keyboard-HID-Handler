@@ -17,6 +17,14 @@
 		27C79A9C13EF2529003878D3 /* special_keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27C79A9B13EF2529003878D3 /* special_keys.plist */; };
 		27DEE32F13EEC23C0001A3F4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DEE32E13EEC23C0001A3F4 /* IOKit.framework */; };
 		27DEE33613EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEE33513EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.m */; };
+		494A03EB174E8CB600BE9A75 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 494A03DF174E8CB600BE9A75 /* LICENSE */; };
+		494A03EC174E8CB600BE9A75 /* MASShortcut+Monitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 494A03E1174E8CB600BE9A75 /* MASShortcut+Monitoring.m */; };
+		494A03ED174E8CB600BE9A75 /* MASShortcut+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 494A03E3174E8CB600BE9A75 /* MASShortcut+UserDefaults.m */; };
+		494A03EE174E8CB600BE9A75 /* MASShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 494A03E5174E8CB600BE9A75 /* MASShortcut.m */; };
+		494A03EF174E8CB600BE9A75 /* MASShortcutView+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 494A03E7174E8CB600BE9A75 /* MASShortcutView+UserDefaults.m */; };
+		494A03F0174E8CB600BE9A75 /* MASShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494A03E9174E8CB600BE9A75 /* MASShortcutView.m */; };
+		494A03F1174E8CB600BE9A75 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 494A03EA174E8CB600BE9A75 /* README.md */; };
+		494A03F3174E8D8800BE9A75 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494A03F2174E8D8800BE9A75 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +46,19 @@
 		27DEE32E13EEC23C0001A3F4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		27DEE33413EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNaturalKeyboardHIDDriver.h; path = ../MSNaturalKeyboardHIDDriver.h; sourceTree = "<group>"; };
 		27DEE33513EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNaturalKeyboardHIDDriver.m; path = ../MSNaturalKeyboardHIDDriver.m; sourceTree = "<group>"; };
+		494A03DF174E8CB600BE9A75 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		494A03E0174E8CB600BE9A75 /* MASShortcut+Monitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+Monitoring.h"; sourceTree = "<group>"; };
+		494A03E1174E8CB600BE9A75 /* MASShortcut+Monitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+Monitoring.m"; sourceTree = "<group>"; };
+		494A03E2174E8CB600BE9A75 /* MASShortcut+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+UserDefaults.h"; sourceTree = "<group>"; };
+		494A03E3174E8CB600BE9A75 /* MASShortcut+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+UserDefaults.m"; sourceTree = "<group>"; };
+		494A03E4174E8CB600BE9A75 /* MASShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcut.h; sourceTree = "<group>"; };
+		494A03E5174E8CB600BE9A75 /* MASShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcut.m; sourceTree = "<group>"; };
+		494A03E6174E8CB600BE9A75 /* MASShortcutView+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcutView+UserDefaults.h"; sourceTree = "<group>"; };
+		494A03E7174E8CB600BE9A75 /* MASShortcutView+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcutView+UserDefaults.m"; sourceTree = "<group>"; };
+		494A03E8174E8CB600BE9A75 /* MASShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcutView.h; sourceTree = "<group>"; };
+		494A03E9174E8CB600BE9A75 /* MASShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcutView.m; sourceTree = "<group>"; };
+		494A03EA174E8CB600BE9A75 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		494A03F2174E8D8800BE9A75 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494A03F3174E8D8800BE9A75 /* Carbon.framework in Frameworks */,
 				27DEE32F13EEC23C0001A3F4 /* IOKit.framework in Frameworks */,
 				2735E82713EEC0790032B259 /* Cocoa.framework in Frameworks */,
 			);
@@ -74,6 +96,7 @@
 		2735E82513EEC0790032B259 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				494A03F2174E8D8800BE9A75 /* Carbon.framework */,
 				2735E82613EEC0790032B259 /* Cocoa.framework */,
 				2735E82813EEC0790032B259 /* Other Frameworks */,
 			);
@@ -94,6 +117,7 @@
 		2735E82C13EEC0790032B259 /* Special Key Handler */ = {
 			isa = PBXGroup;
 			children = (
+				494A03DE174E8CB600BE9A75 /* MASShortcut */,
 				2735E83813EEC0790032B259 /* Special_Key_HandlerAppDelegate.h */,
 				27DEE33413EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.h */,
 				27DEE33513EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.m */,
@@ -115,6 +139,25 @@
 				27C79A9B13EF2529003878D3 /* special_keys.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494A03DE174E8CB600BE9A75 /* MASShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				494A03DF174E8CB600BE9A75 /* LICENSE */,
+				494A03E0174E8CB600BE9A75 /* MASShortcut+Monitoring.h */,
+				494A03E1174E8CB600BE9A75 /* MASShortcut+Monitoring.m */,
+				494A03E2174E8CB600BE9A75 /* MASShortcut+UserDefaults.h */,
+				494A03E3174E8CB600BE9A75 /* MASShortcut+UserDefaults.m */,
+				494A03E4174E8CB600BE9A75 /* MASShortcut.h */,
+				494A03E5174E8CB600BE9A75 /* MASShortcut.m */,
+				494A03E6174E8CB600BE9A75 /* MASShortcutView+UserDefaults.h */,
+				494A03E7174E8CB600BE9A75 /* MASShortcutView+UserDefaults.m */,
+				494A03E8174E8CB600BE9A75 /* MASShortcutView.h */,
+				494A03E9174E8CB600BE9A75 /* MASShortcutView.m */,
+				494A03EA174E8CB600BE9A75 /* README.md */,
+			);
+			path = MASShortcut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +212,8 @@
 				2735E83D13EEC0790032B259 /* MainMenu.xib in Resources */,
 				27C79A9C13EF2529003878D3 /* special_keys.plist in Resources */,
 				23C1AF4F159E2AC200C3FEB3 /* stethoscope.icns in Resources */,
+				494A03EB174E8CB600BE9A75 /* LICENSE in Resources */,
+				494A03F1174E8CB600BE9A75 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +227,11 @@
 				2735E83413EEC0790032B259 /* main.m in Sources */,
 				2735E83A13EEC0790032B259 /* Special_Key_HandlerAppDelegate.m in Sources */,
 				27DEE33613EEC2A40001A3F4 /* MSNaturalKeyboardHIDDriver.m in Sources */,
+				494A03EC174E8CB600BE9A75 /* MASShortcut+Monitoring.m in Sources */,
+				494A03ED174E8CB600BE9A75 /* MASShortcut+UserDefaults.m in Sources */,
+				494A03EE174E8CB600BE9A75 /* MASShortcut.m in Sources */,
+				494A03EF174E8CB600BE9A75 /* MASShortcutView+UserDefaults.m in Sources */,
+				494A03F0174E8CB600BE9A75 /* MASShortcutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +309,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Special Key Handler/Special Key Handler-Prefix.pch";
 				INFOPLIST_FILE = "Special Key Handler/Special Key Handler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +327,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Special Key Handler/Special Key Handler-Prefix.pch";
 				INFOPLIST_FILE = "Special Key Handler/Special Key Handler-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
